@@ -7,6 +7,9 @@
     <TargetFrameworks>net45</TargetFrameworks>
     <PackageTags>$(AkkaPackageTags);transport;helios</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\..\akkadotnet.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>

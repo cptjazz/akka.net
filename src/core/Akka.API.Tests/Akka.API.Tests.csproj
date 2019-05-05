@@ -4,6 +4,9 @@
   <PropertyGroup>
     <AssemblyTitle>Akka.API.Tests</AssemblyTitle>
     <TargetFrameworks>net452</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\akkadotnet.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>

@@ -32,4 +32,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: InternalsVisibleTo("Akka.Streams.TestKit.Tests")]
+[assembly: InternalsVisibleTo("Akka.Streams.TestKit.Tests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100911bc8e8f43e5e1825545cb6b783d9ee7b7ec80d16c738d71e9fd1b293f953420280892bc62d6cf065964415de55f24a8bd7b7d76dca7bfda34ba077e03aff4a2522a12f46d1bfb59b20faf491dab951da925ce2cb2c91bc99e04e34cf451a7a1c4a7b6ac249b58c3dc03244c2de95045c424cc9d1739adce67e19de640ff4c2")]
