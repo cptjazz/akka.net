@@ -8,6 +8,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\akkadotnet.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
+    <RuntimeIdentifiers>win7-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>
