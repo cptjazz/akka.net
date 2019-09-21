@@ -6,6 +6,7 @@
     <Description>Akka.NET streams support for ADO.NET Persistence middleware.</Description>
     <TargetFrameworks>net45;netstandard1.6</TargetFrameworks>
     <PackageTags>$(AkkaPackageTags);persistence;eventsource;sql;reactive;streams</PackageTags>
+	<PackageId>$(AssemblyTitle).Signed</PackageId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
     <SignAssembly>true</SignAssembly>

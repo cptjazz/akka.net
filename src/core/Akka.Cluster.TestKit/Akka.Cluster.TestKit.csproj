@@ -6,6 +6,7 @@
     <Description>Helper classes for combining the Akka.Remote.TestKit with Akka.Cluster</Description>
     <TargetFrameworks>net452;netstandard1.6</TargetFrameworks>
     <PackageTags>$(AkkaPackageTags);network;cluster;testkit</PackageTags>
+	<PackageId>$(AssemblyTitle).Signed</PackageId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\akkadotnet.snk</AssemblyOriginatorKeyFile>

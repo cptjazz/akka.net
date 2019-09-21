@@ -6,6 +6,7 @@
     <Description>Akka.NET Persistence journal and snapshot store backed by SQLite.</Description>
     <TargetFrameworks>net451;netstandard1.6</TargetFrameworks>
     <PackageTags>$(AkkaPackageTags);persistence;eventsource;sql;sqlite</PackageTags>
+	<PackageId>$(AssemblyTitle).Signed</PackageId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\..\akkadotnet.snk</AssemblyOriginatorKeyFile>

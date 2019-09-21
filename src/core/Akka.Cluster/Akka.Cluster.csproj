@@ -6,6 +6,7 @@
     <Description>Cluster support for Akka.NET</Description>
     <TargetFrameworks>net45;netstandard1.6</TargetFrameworks>
     <PackageTags>$(AkkaPackageTags);network;cluster</PackageTags>
+	<PackageId>$(AssemblyTitle).Signed</PackageId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
     <SignAssembly>true</SignAssembly>
